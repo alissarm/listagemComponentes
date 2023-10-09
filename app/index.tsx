@@ -6,9 +6,9 @@ import { styles } from './styles';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Home</Text>
-      <Link href="/telaA">Ir para a tela de cadastro</Link>
-      <Link href="/telaB">Ir para a tela de armazenamento de dados</Link>
+      <Text style={styles.title}>Home</Text>
+      <Link href="/telaA">Tela de cadastro</Link>
+      <Link href="/telaB">Tela de armazenamento de dados</Link>
 
       <StatusBar style="auto" />
     </View>
