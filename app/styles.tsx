@@ -6,30 +6,31 @@ export const styles = StyleSheet.create({
       backgroundColor: '#fff',
       alignItems: 'center',
       justifyContent: 'center',
-      marginTop: 20,
+      margin: 60,
     },
     title:{
-      color: '#',
+      color: '#567a49',
       fontSize: 25,
       fontWeight: 'bold',
-      paddingBottom: 10,
+      marginBottom: 25,
     },
     input:{
-      color: '#000',
+      color: '#000000',
       backgroundColor: '#fff',
       borderRadius: 5,
       fontWeight: '200',
-      width: '60%',
+      width: '70%',
       margin: 10,
       padding: 10,
     },
     btn:{
       backgroundColor: '#567a49',
       fontSize: 14,
-      width: '60%',
+      width: '70%',
       margin: 10,
       padding: 10,
-      marginBottom: 20,
+      marginBottom: 30,
+      marginTop: 10,
       borderRadius: 5,
       alignItems: 'center',
     },
@@ -41,9 +42,8 @@ export const styles = StyleSheet.create({
     dados:{
         textAlign: 'justify',
     },
-    text:{
-    fontSize: 50,
-    fontWeight: 'bold',
-    padding: 20,
-    },
+    navegacao:{
+      marginBottom: 50,
+      alignItems: 'center',
+    }
   });
